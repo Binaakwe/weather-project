@@ -1,0 +1,84 @@
+h1 {
+    font-size: 33px;
+}
+
+#city {
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(175, 13, 62, 0.712);
+}
+
+#current-temperature,
+#temperature-feel {
+    color: rgba(175, 13, 62, 0.712);
+    font-weight: 500;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.feel-temperature {
+    font-size: 24px;
+    font-weight: 200;
+    color: rgb(2, 66, 126);
+    padding-top: 10px;
+}
+
+#day {
+    font-weight: 200;
+    font-size: 22px;
+    color: rgb(2, 66, 126);
+    padding-top: 15px;
+}
+
+#time {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(2, 66, 126);
+}
+
+.container {
+    background: linear-gradient(#3f87a6, #ebf8e1, #f69d3c);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.weather-current {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin-top: 90px;
+}
+
+.current-icon {
+    font-size: 75px;
+}
+
+form {
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 90px;
+}
+
+.weather-detail {
+    text-align: right;
+    display: inline-block;
+    color: rgb(2, 66, 126);
+}
+
+.col {
+    color: rgb(4, 79, 150);
+}
+
+.weather-icon {
+    font-size: 40px;
+    padding: 15px 0px;
+    color: white;
+}
+
+.forcast {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 20px 25px;
+}
